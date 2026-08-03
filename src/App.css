@@ -95,7 +95,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background:#E3D0BD;
-  color:#4E3B31;
+  color:#5A4032;
   padding: 15px 40px;
 }
 
@@ -142,7 +142,7 @@ body {
 }
 
 .skills span {
-  background: #B88A67;
+  background: #5A4032;
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
@@ -235,7 +235,7 @@ font-size: 16px;
 
 }
 .submit-btn {
-    background-color: #936f5b;
+    background-color: #5A4032;
     color: #ffffff;
     border: none;
     padding: 14px 35px;
@@ -350,7 +350,7 @@ font-size: 16px;
 }
 
 .admin-buttons button{
-    background:#8b654a;
+    background:#5A4032;
     color:white;
     border:none;
     padding:8px 18px;
