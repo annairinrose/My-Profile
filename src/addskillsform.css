@@ -1,0 +1,84 @@
+.skill-form-container {
+    width: 450px;
+    max-width: 90%;
+    margin: 120px auto 50px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.skill-form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.skill-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.skill-form label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.skill-form input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+
+.skill-form input:focus {
+    border-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+.skill-form button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.skill-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.skill-form button:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    .skill-form-container {
+        width: 95%;
+        padding: 25px;
+        margin-top: 100px;
+    }
+
+    .skill-form-container h1 {
+        font-size: 1.7rem;
+    }
+
+    .skill-form input {
+        font-size: 14px;
+    }
+
+    .skill-form button {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,100 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#070910;
+}
+
+/* Navbar */
+
+.navbar{
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+/* Logo */
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+    color:#6B5B4D;
+    letter-spacing:2px;
+}
+
+.logo span{
+    color:#6B5B4D;
+}
+
+/* Navigation Links */
+
+.nav-links{
+    display:flex;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#6B5B4D;
+    font-size:17px;
+    font-weight:500;
+    position:relative;
+    transition:.3s;
+}
+
+/* Underline Animation */
+
+.nav-links a::after{
+    content:"";
+    position:absolute;
+    width:0%;
+    height:2px;
+    background:#6B5B4D;
+    left:0;
+    bottom:-6px;
+    transition:.4s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
+
+.nav-links a:hover{
+    color:#534131;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .navbar{
+        padding:20px;
+        flex-direction:column;
+        height:auto;
+        gap:15px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+}
