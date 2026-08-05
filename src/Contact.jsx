@@ -2,7 +2,7 @@
 import React,{ useState, useEffect} from 'react';
 import "./Contact.css";
 import { collection, addDoc ,getDocs} from "firebase/firestore";
-import {app, db} from "./Config/Config";
+import {db} from "./Config/Config";
 
 
 export default function Contact()  {

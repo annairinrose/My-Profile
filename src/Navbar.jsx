@@ -17,7 +17,7 @@ function Navbar() {
       setisauthenticated(false)
     }
   });
-    },[])
+    },[auth])
   const navigate = useNavigate();
   const handleLogOut = ()=>{
     signOut(auth)

@@ -13,14 +13,11 @@ const handlesignin=()=>{
 signInWithEmailAndPassword(auth, Email, Password)
   .then((userCredential) => {
     // Signed in 
-    const user = userCredential.user;
     console.log(userCredential)
     alert("sign in successful")
     // ...
   })
   .catch((error) => {
-    const errorCode = error.code;
-    const errorMessage = error.message;
     console.log(error)
   });}
   return (
