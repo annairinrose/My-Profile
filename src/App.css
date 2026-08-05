@@ -173,7 +173,7 @@ body {
 }
 
 /* Project Cards */
-.project-card {
+.pct-crd {
   align-items: center;
   width: 300px;
   margin: 20px auto;
@@ -183,11 +183,11 @@ body {
   box-shadow: #364635 rgba(54, 70, 53, 0.22);
 }
 
-.project-card h3 {
+.pct-crd h3 {
   margin-bottom: 10px;
   font-family: 'Cinzel', serif;
 }
-.project-card p {
+.pct-crd p {
   font-size: medium;
   font-weight: 300;
   text-align: center;

@@ -149,12 +149,12 @@ useEffect(() => {
       <section id="projects" className="section">
         <h2>Projects</h2>
 
-        <div className="project-card">
+        <div className="pct-crd">
           <h3>GooLite</h3>
           <p>A Mini College Search Engine.</p>
         </div>
 
-        <div className="project-card">
+        <div className="pct-crd">
           <h3>Traffic Prediction</h3>
           <p>Machine Learning Project using Python.</p>
         </div>
