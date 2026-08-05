@@ -173,7 +173,6 @@ useEffect(() => {
       <section id="contact" className="section">
         <h2>Contact</h2>
         <p>Email: annairinrose@gmail.com</p>
-        <p>Phone: +91 8590398563</p>
       </section>
 
       {/* Contact Form */}

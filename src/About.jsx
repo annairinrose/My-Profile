@@ -1,7 +1,7 @@
 import "./App.css";
 import "./About.css";
 import React, {  useEffect, useState } from "react";
-import {db} from "./Config/Config";
+import {auth, db} from "./Config/Config";
 import {
   getDoc,
   addDoc,
@@ -69,7 +69,6 @@ export default function About() {
   return (
     <div className="page">
       <h2>ABOUT ME</h2>
-
       {editing ? (
         <>
           <textarea
@@ -99,7 +98,7 @@ export default function About() {
       ) : (
         <>
           <p>{about}</p>
-
+{auth.currentUser?(
          <button
   className="btn"
   onClick={() => {
@@ -107,8 +106,8 @@ export default function About() {
     setEditing(true);
   }}
 >
-  Edit
-</button>
+Edit
+</button>):null}
         </>
       )}
     </div>

@@ -82,9 +82,6 @@ const handleSubmit = async (e) => {
           <h2>Conatct Me</h2>
 
           <p> Email: annairinrose@gmail.com</p>
-
-          <p> Phone: +91 8590398563</p>
-
           <p> Location: Kerala, India</p>
 
           

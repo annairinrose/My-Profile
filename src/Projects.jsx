@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import "./Projects.css";
 import { collection,getDocs,addDoc,updateDoc,deleteDoc,doc } from "firebase/firestore";
-import {db} from "./Config/Config"
+import {auth, db} from "./Config/Config"
 
 export default function Projects() {
   const [projectName, setProjectName] = useState("");
@@ -88,7 +88,7 @@ export default function Projects() {
   return (
     <section className="projects">
       <h2>My Projects</h2>
-
+{auth.currentUser?(
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -106,7 +106,9 @@ export default function Projects() {
         <button className="btn" type="submit">
           {editId ? "Update Project" : "Add Project"}
         </button>
+
       </form>
+):null}
 
       <h3 className="list_hd">Project List</h3>
 
@@ -117,8 +119,6 @@ export default function Projects() {
             <th>No.</th>
             <th>Project Name</th>
             <th>Description</th>
-            <th>Edit</th>
-            <th>Delete</th>
           </tr>
         </thead>
 
@@ -133,7 +133,7 @@ export default function Projects() {
                 <td>{index + 1}</td>
                 <td>{item.projectName}</td>
                 <td>{item.description}</td>
-
+{auth.currentUser?(
                 <td>
                   <button
                     type="button"
@@ -143,7 +143,8 @@ export default function Projects() {
                     Edit
                   </button>
                 </td>
-
+):null}
+{auth.currentUser?(
                 <td>
                   <button
                     type="button"
@@ -153,6 +154,7 @@ export default function Projects() {
                     Delete
                   </button>
                 </td>
+):null}
               </tr>
             ))
           )}
