@@ -1,17 +1,29 @@
 .skills-page {
     min-height: 100vh;
     padding: 100px 50px;
-    background-image:url("https://www.shutterstock.com/image-photo/creamy-gradient-background-studio-photography-260nw-2704394905.jpg");
+    background-image:url("https://img.magnific.com/premium-vector/blank-background-watercolor-with-floral-abstract-wet-hand-drawn_712151-387.jpg?semt=ais_hybrid&w=740&q=80");
     background-size: cover;
     text-align: center;
+    animation: bgMove 40s ease-in-out infinite alternate;
 }
 
-.skills-page h1 {
-    font-size: 40px;
+@keyframes bgMove {
+  from {
+    background-position: center bottom;
+  }
+  to {
+    background-position: center top;
+  }
+}
+
+.skills-page h2 {
+    color:#4A4A4A;
+    font-size:3rem;
     margin-bottom: 40px;
 }
 
 .skills-container {
+    color:#364635;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -22,8 +34,8 @@
     width: 180px;
     padding: 20px;
     border-radius: 15px;
-    background:#B89B7A;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    background:#F8F6F1;
+    box-shadow: #364635 rgba(54, 70, 53, 0.22);
     font-size: 20px;
     font-weight: bold;
     transition: .3s;

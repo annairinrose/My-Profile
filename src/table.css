@@ -9,6 +9,7 @@
 }
 
 .messages-container h1 {
+  color: #4A4A4A;
   text-align: center;
   margin-bottom: 30px;
   font-size: 2rem;
@@ -123,4 +124,7 @@ table::-webkit-scrollbar-thumb {
   .messages-container h1 {
     font-size: 1.5rem;
   }
+}
+.head{
+  color: #364635;
 }

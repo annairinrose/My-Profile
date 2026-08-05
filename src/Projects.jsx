@@ -87,7 +87,7 @@ export default function Projects() {
 
   return (
     <section className="projects">
-      <h1>My Projects</h1>
+      <h2>My Projects</h2>
 
       <form onSubmit={handleSubmit}>
         <input
@@ -108,7 +108,7 @@ export default function Projects() {
         </button>
       </form>
 
-      <h3>Project List</h3>
+      <h3 className="list_hd">Project List</h3>
 
 
       <table className="project-card">

@@ -11,7 +11,7 @@ function Home() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [profileImage, setProfileImage] = useState(
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW48g6BGkQuQTbsOasU75S8UBerYFyOLk1NSi_BRKqHQ&s=10"
+  "https://i.pinimg.com/736x/c9/0f/1a/c90f1a58fd9a373d7fddbf339aefb8f5.jpg"
 );
 
 useEffect(() => {
@@ -209,8 +209,8 @@ useEffect(() => {
 </section>
 
       {/* Footer */}
-      <footer>
-        <p>© 2026 Anna. All Rights Reserved.</p>
+      <footer >
+        <p style={{color:'white'}}>© 2026 Anna. All Rights Reserved.</p>
       </footer>
 
     </div>

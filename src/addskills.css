@@ -7,6 +7,8 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 .add {
+    background-color: #5B4636;
+    color: white;
     padding: 12px 24px;
     border: none;
     border-radius: 10px;
@@ -15,12 +17,13 @@
     font-weight: 600;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    box-shadow:#364635 rgba(54, 70, 53, 0.22);
 }
 
 .add:hover {
+    background:#6E5645;
     transform: translateY(-2px);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+    box-shadow:#364635 rgba(54, 70, 53, 0.22);
 }
 
 .add:active {
@@ -35,6 +38,7 @@
 }
 
 .top-bar h1 {
+    color:#4A4A4A ;
     margin: 0;
     font-size: 2rem;
     font-weight: 600;
@@ -99,6 +103,8 @@ tbody tr:last-child {
 
 .edit-btn,
 .dlt-btn {
+    background-color: #5B4636;
+    color: white;
     padding: 8px 16px;
     border: 1px solid rgba(0,0,0,0.15);
     border-radius: 6px;
@@ -111,10 +117,13 @@ tbody tr:last-child {
 
 .edit-btn:hover,
 .dlt-btn:hover {
+    background:#6E5645;
     transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    box-shadow:#364635 rgba(54, 70, 53, 0.22);
 }
-
+.tbl{
+    color: #364635;
+}
 td:last-child {
     white-space: nowrap;
 }

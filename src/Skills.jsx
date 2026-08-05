@@ -1,9 +1,10 @@
 import "./Skills.css";
 
+
 function Skills() {
   return (
     <div className="skills-page">
-      <h1>My Skills</h1>
+      <h2>My Skills</h2>
 
       <div className="skills-container">
         <div className="skill-card">HTML</div>

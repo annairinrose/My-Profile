@@ -43,12 +43,11 @@ function AddSkills() {
         <button className="add" onClick={() => navigate("/addskillsform")}>
           Add Skill
         </button>
-
       </div>
 
-      <table>
+      <table className="tbl" >
 
-        <thead>
+        <thead >
           <tr>
             <th>Skill</th>
             <th>Order</th>

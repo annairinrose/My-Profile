@@ -32,7 +32,7 @@ function Messages() {
       <h1>Contact Messages</h1>
 
       <table>
-        <thead>
+        <thead className="head">
           <tr>
             <th>Serial No</th>
             <th>Name</th>

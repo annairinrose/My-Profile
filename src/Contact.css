@@ -10,22 +10,22 @@
     padding-bottom:16px;
 }
 
-.contact h1 {
+.contact h2 {
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 60px;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #4E3B31;
+    color: #4A4A4A;
     margin-bottom: 60px;
     position: relative;
 }
 
-.contact h1::after {
+.contact h2::after {
     content: "";
     width: 90px;
     height: 3px;
-    background: #B89B7A;
+    background: #364635;
     display: block;
     margin: 15px auto 0;
     border-radius: 10px;
@@ -46,7 +46,7 @@
 
 .contact-form,
 .contact-info {
-    background: rgba(255,255,255,0.25);
+    background: #364635(255,255,255,0.25);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 
@@ -63,7 +63,7 @@
 .contact-form:hover,
 .contact-info:hover {
     transform: translateY(-6px);
-    box-shadow: 0 20px 45px rgba(0,0,0,.18);
+    box-shadow:#364635 rgba(54, 70, 53, 0.22);
 }
 
 /* Form */
@@ -80,10 +80,10 @@
     padding: 16px 18px;
     border: 1px solid #D7C6B6;
     border-radius: 12px;
-    background: rgba(255,255,255,.65);
+    background: #364635(255,255,255,.65);
 
     font-size: 16px;
-    color: #6B5B4D;
+    color: #364635;
 
     outline: none;
     transition: .3s;
@@ -91,7 +91,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #B89B7A;
+    border-color: #364635;
     box-shadow: 0 0 10px rgba(184,155,122,.35);
 }
 
@@ -102,7 +102,7 @@
 /* Button */
 
 .contact-form button {
-    background: #4E3B31;
+    background: #5B4636;
     color: white;
 
     border: none;
@@ -118,7 +118,7 @@
 }
 
 .contact-form button:hover {
-    background: #6A5246;
+    background: #6E5645;
     transform: translateY(-3px);
 }
 
@@ -132,14 +132,14 @@
 
 .contact-info h2 {
     font-family: 'Cormorant Garamond', serif;
-    color: #4E3B31;
+    color: #4A4A4A;
     font-size: 34px;
     margin-bottom: 25px;
     text-align: center;
 }
 
 .contact-info p {
-    color: #6B5B4D;
+    color: #364635;
     font-size: 18px;
     line-height: 2;
     text-align: left;

@@ -1,9 +1,20 @@
 .login-container{
+    background-image:url("https://img.magnific.com/premium-vector/blank-background-watercolor-with-floral-abstract-wet-hand-drawn_712151-387.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
     height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    background:#f8f5f2;
+    animation: bgMove 50s ease-in-out infinite alternate;
+}
+
+@keyframes bgMove {
+  from {
+    background-position: center top;
+  }
+  to {
+    background-position: center bottom;
+  }
 }
 
 .login-box{
@@ -25,11 +36,12 @@
 }
 
 .login-left h2{
-    color:#4E3B31;
+    color:#4A4A4A;
     margin-bottom:10px;
 }
 
 .login-left p{
+    color:#364635 ;
     margin-bottom:20px;
 }
 
@@ -44,14 +56,14 @@
     padding:14px;
     border:none;
     border-radius:8px;
-    background:#A67B5B;
+    background:#5B4636;
     color:white;
     font-size:16px;
     cursor:pointer;
 }
 
 .login-left button:hover{
-    background:#8f6648;
+    background:#6E5645;
 }
 
 .login-right{
@@ -69,12 +81,12 @@
 }
 
 .forgot-password a {
-    color: #A67B5B;
+    color: #364635;
     text-decoration: none;
     font-size: 14px;
 }
 
 .forgot-password a:hover {
-    color: #4E3B31;
+    color: #6E5645;
     text-decoration: underline;
 }

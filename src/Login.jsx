@@ -45,7 +45,7 @@ signInWithEmailAndPassword(auth, Email, Password)
         </div>
 
         <div className="login-right">
-        <img src="https://i.pinimg.com/736x/79/36/92/79369228bd462e6c6de34006b4947a5d.jpg" alt="Login" />
+        <img src="https://i.pinimg.com/736x/a3/6c/5b/a36c5ba435c6b3ce53cbf8253ae6ed66.jpg" alt="Login" />
         </div>
       </div>
     </div>

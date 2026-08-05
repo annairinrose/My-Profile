@@ -1,6 +1,6 @@
 .btn {
   align-items: center;
-  background-color: #4E3B31;
+  background-color: #5B4636;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -15,11 +15,21 @@
 
 .btn:hover {
     align-items: center;
-  background-color: #6B5244;
+  background-color: #6E5645;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(78, 59, 49, 0.3);
+  box-shadow: #364635 rgba(54, 70, 53, 0.22);
 }
 
 .btn:active {
   transform: scale(0.98);
+}
+.projects h2{
+    color:#4A4A4A;
+    font-size:3rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.list_hd{
+    font-style:italic ;
+    text-align: center;
 }
